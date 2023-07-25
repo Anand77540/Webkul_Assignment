@@ -29,7 +29,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
           // Uri.parse("http://127.0.0.1:5000/api/v1/signup"),
         //when you are running with another network
         // you have to give IPV4 address at the place of192.168.0.109..
-          Uri.parse("http://192.168.0.100:5000/api/v1/signup"),
+          // Uri.parse("http://192.168.0.100:5000/api/v1/signup"),
+        Uri.parse("https://new-flask-server-webkul-assignment.onrender.com/api/v1/signup"),
           headers: {"Content-Type":"application/json"},
           body: jsonEncode(userData)
       );
