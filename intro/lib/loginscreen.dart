@@ -22,7 +22,8 @@ class LoginScreen extends StatelessWidget {
           //Uri.parse("http://127.0.0.1:5000/api/v1/login"),
         //when you are running with another network
         // you have to give IPV4 address at the place of192.168.0.109..
-          Uri.parse("http://192.168.0.100:5000/api/v1/login"),
+          // Uri.parse("http://192.168.0.100:5000/api/v1/login"),
+          Uri.parse("https://new-flask-server-webkul-assignment.onrender.com/api/v1/login"),
           headers: {
             "Content-Type":"application/json"
           },
